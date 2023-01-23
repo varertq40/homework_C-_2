@@ -10,7 +10,7 @@ Console.Clear();
 Console.Write("Введитие трехзначное число ");
 int number = int.Parse(Console.ReadLine()!);
 
-if (number <= 1)
+if (number < 10)
 {
     Console.WriteLine("Нужно ввести трехзначное число");
 }
